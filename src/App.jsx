@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { LanguageProvider } from "./context/LanguageContext";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -13,7 +13,7 @@ import "./index.css";
 export default function App() {
   return (
     <LanguageProvider>
-      <BrowserRouter basename="/eryaman-sanat/">
+      <HashRouter>
         <Navbar />
         <main>
           <Routes>
@@ -26,7 +26,7 @@ export default function App() {
           </Routes>
         </main>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </LanguageProvider>
   );
 }
