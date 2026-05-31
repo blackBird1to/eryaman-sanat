@@ -133,7 +133,7 @@ export default function Home() {
 
         <div className="hero__image-block">
           <img
-            src="/Images/hero.jpg"
+            src={`${import.meta.env.BASE_URL}Images/hero.jpg`}
             alt="Eryaman Sanat Fine Arts Studio"
             className="hero__image"
           />
@@ -177,7 +177,7 @@ export default function Home() {
           <div className="intro__visual">
             <div className="intro__frame">
               <img
-                src="/Images/hero2.jpg"
+                src={`${import.meta.env.BASE_URL}Images/hero2.jpg`}
                 alt="Eryaman Sanat Fine Arts Studio"
                 className="intro__image"
               />

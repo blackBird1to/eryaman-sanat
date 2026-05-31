@@ -13,7 +13,7 @@ import "./index.css";
 export default function App() {
   return (
     <LanguageProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/eryaman-sanat/">
         <Navbar />
         <main>
           <Routes>
