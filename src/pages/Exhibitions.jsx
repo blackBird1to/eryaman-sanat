@@ -18,9 +18,6 @@ import metromall13 from '../assets/exhibitions/metromall-mart/13.jpg'
 import metromall14 from '../assets/exhibitions/metromall-mart/14.jpg'
 import metromall15 from '../assets/exhibitions/metromall-mart/15.jpg'
 import metromall16 from '../assets/exhibitions/metromall-mart/16.jpg'
-import metromall17 from '../assets/exhibitions/metromall-mart/17.jpg'
-import metromall18 from '../assets/exhibitions/metromall-mart/18.jpg'
-import metromall19 from '../assets/exhibitions/metromall-mart/19.jpg'
 import metromallPoster from '../assets/exhibitions/metromall-mart/poster.jpg'
 
 const exhibitionGroups = {
@@ -48,9 +45,6 @@ const exhibitionGroups = {
         { src: metromall14, alt: 'Metromall Exhibition photo 14' },
         { src: metromall15, alt: 'Metromall Exhibition photo 15' },
         { src: metromall16, alt: 'Metromall Exhibition photo 16' },
-        { src: metromall17, alt: 'Metromall Exhibition photo 17' },
-        { src: metromall18, alt: 'Metromall Exhibition photo 18' },
-        { src: metromall19, alt: 'Metromall Exhibition photo 19' },
       ]                                      // ← and here
     }
   ],
@@ -78,9 +72,6 @@ const exhibitionGroups = {
         { src: metromall14, alt: 'Metromall Sergisi fotoğraf 14' },
         { src: metromall15, alt: 'Metromall Sergisi fotoğraf 15' },
         { src: metromall16, alt: 'Metromall Sergisi fotoğraf 16' },
-        { src: metromall17, alt: 'Metromall Sergisi fotoğraf 17' },
-        { src: metromall18, alt: 'Metromall Sergisi fotoğraf 18' },
-        { src: metromall19, alt: 'Metromall Sergisi fotoğraf 19' },
       ]                                      // ← and here
     }
   ]
